@@ -1,0 +1,14 @@
+#!/usr/bin/env node
+
+var xtoolkit = require('xtoolkit');
+xtoolkit.command('init','local:../src/jud-init.js');
+xtoolkit.command('compile','npm:jud-builder').locate(require.resolve('jud-builder'));
+xtoolkit.command('debug','npm:jud-devtool');
+xtoolkit.command('','npm:jud-previewer').locate(require.resolve('jud-previewer'));
+xtoolkit.command('create','npm:judpack.create','');
+xtoolkit.command('platform','npm:judpack.platform');
+xtoolkit.command('plugin','npm:judpack.plugin');
+xtoolkit.command('build','npm:judpack.build');
+xtoolkit.command('run','npm:judpack.run');
+xtoolkit.command('create','npm:judpack.create');
+xtoolkit.version(require('../package.json').version);
