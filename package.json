@@ -2,9 +2,12 @@
   "name": "jud-toolkit",
   "version": "0.0.1",
   "description": "jud toolkit",
-  "main": "gulpfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp"
+  },
+  "engines": {
+    "node": ">=6"
   },
   "repository": {
     "type": "git",
@@ -15,6 +18,29 @@
   ],
   "author": "vkiding",
   "license": "GPL-3.0",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "npmlog": "^4.0.0",
+    "opener": "^1.4.1",
+    "prompt": "^1.0.0",
+    "fs-extra":"^2.0.0",
+    "jud-builder": "^0.0.1",
+    "jud-components": "^0.0.1",
+    "jud-previewer": "^0.0.1",
+    "xtoolkit": "^0.2.1",
+    "yargs": "^6.6.0"
+  },
+  "devDependencies": {
+    "browserify": "^13.3.0",
+    "eslint": "^3.14.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.2.2"
+  },
+  "bin": {
+    "jud": "bin/jud"
+  },
   "bugs": {
     "url": "https://github.com/vkiding/jud-toolkit/issues"
   },
