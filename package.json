@@ -1,6 +1,6 @@
 {
   "name": "jud-toolkit",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Jud toolkit",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -26,7 +26,7 @@
     "fs-extra":"^2.0.0",
     "jud-builder": "^0.0.3",
     "jud-components": "^0.0.1",
-    "jud-previewer": "^0.0.1",
+    "jud-previewer": "^0.0.2",
     "xtoolkit": "^0.2.1",
     "yargs": "^6.6.0"
   },
