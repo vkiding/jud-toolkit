@@ -1,7 +1,7 @@
 {
   "name": "jud-toolkit",
-  "version": "0.0.3",
-  "description": "jud toolkit",
+  "version": "0.0.4",
+  "description": "Jud toolkit",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "gulp"
@@ -13,9 +13,6 @@
     "type": "git",
     "url": "git+https://github.com/vkiding/jud-toolkit.git"
   },
-  "keywords": [
-    "jud"
-  ],
   "author": "vkiding",
   "license": "GPL-3.0",
   "dependencies": {
@@ -24,7 +21,7 @@
     "opener": "^1.4.1",
     "prompt": "^1.0.0",
     "fs-extra":"^2.0.0",
-    "jud-builder": "^0.0.2",
+    "jud-builder": "^0.0.3",
     "jud-components": "^0.0.1",
     "jud-previewer": "^0.0.1",
     "xtoolkit": "^0.2.1",
@@ -40,9 +37,5 @@
   },
   "bin": {
     "jud": "bin/jud"
-  },
-  "bugs": {
-    "url": "https://github.com/vkiding/jud-toolkit/issues"
-  },
-  "homepage": "https://github.com/vkiding/jud-toolkit#readme"
+  }
 }
