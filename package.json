@@ -26,7 +26,7 @@
     "fs-extra":"^2.0.0",
     "jud-builder": "^0.0.3",
     "jud-components": "^0.0.1",
-    "jud-previewer": "^0.0.2",
+    "jud-previewer": "^0.0.3",
     "xtoolkit": "^0.2.1",
     "yargs": "^6.6.0"
   },

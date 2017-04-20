@@ -1,7 +1,7 @@
 {
   "name": "{{ name }}",
   "description": "{{ description }}",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "private": true,
   "main": "index.js",
   "keywords": [
@@ -31,7 +31,7 @@
     "vue-loader": "^10.0.2",
     "vue-template-compiler": "^2.1.8",
     "webpack": "^1.14.0",
-    "jud-devtool": "^0.0.1",
+    "jud-devtool": "^0.0.2",
     "jud-loader": "^0.0.1",
     "jud-vue-loader": "^0.0.1"
   }
