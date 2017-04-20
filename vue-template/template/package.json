@@ -1,7 +1,7 @@
 {
   "name": "{{ name }}",
   "description": "{{ description }}",
-  "version": "0.0.1",
+  "version": "0.0.8",
   "private": true,
   "main": "index.js",
   "keywords": [
@@ -19,7 +19,7 @@
     "vue-router": "^2.1.1",
     "vuex": "^2.1.1",
     "vuex-router-sync": "^4.0.1",
-    "jud-vue-render": "^0.11.2"
+    "jud-vue-render": "^0.0.1"
   },
   "devDependencies": {
     "babel-core": "^6.20.0",
@@ -31,8 +31,8 @@
     "vue-loader": "^10.0.2",
     "vue-template-compiler": "^2.1.8",
     "webpack": "^1.14.0",
-    "jud-devtool": "^0.2.64",
-    "jud-loader": "^0.4.1",
-    "jud-vue-loader": "^0.2.5"
+    "jud-devtool": "^0.0.1",
+    "jud-loader": "^0.0.1",
+    "jud-vue-loader": "^0.0.1"
   }
 }
